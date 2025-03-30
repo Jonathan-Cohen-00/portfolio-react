@@ -6,7 +6,11 @@ import pdf from "../../Assets/../Assets/CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+import workerSrc from 'pdfjs-dist/build/pdf.worker.min?url';
+
+// Configure le worker
+pdfjs.GlobalWorkerOptions.workerSrc = workerSrc;
+
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -33,7 +37,8 @@ function ResumeNew() {
 
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6}   renderAnnotationLayer={false}
+  renderTextLayer={false}/>
           </Document>
         </Row>
 
