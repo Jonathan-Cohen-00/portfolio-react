@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
-import About from "./components/About/About";
+import Synthese from "./components/Synthese/Synthese";
 import ProjetsPersonnels from "./components/Projects/ProjetsPersonnels";
 import Footer from "./components/Footer";
 import Cv from "./components/Resume/ResumeNew";
@@ -17,6 +17,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import VeilleTechnologique from "./components/Veille/VeilleTechnologique";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -31,16 +32,18 @@ function App() {
 
   return (
     <Router basename="/jonathan_cohen/portfolio">
-    <Preloader load={load} />
+      <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
         <Routes>
+          <Route
+            path="/veille-technologique"
+            element={<VeilleTechnologique/>} />
           <Route path="/" element={<Home />} />
           <Route path="/projets-personnels" element={<ProjetsPersonnels />} />
-          <Route path="/mon-alternance" element={<Alternance/>} />
-          
-          <Route path="/about" element={<About />} />
+          <Route path="/mon-alternance" element={<Alternance />} />
+          <Route path="/synthese" element={<Synthese />} />
           <Route path="/cv" element={<Cv />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

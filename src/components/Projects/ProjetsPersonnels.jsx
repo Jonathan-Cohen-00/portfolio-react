@@ -3,10 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import nike from "../../Assets/Projects/nike.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import ad from "../../Assets/Projects/server.png";
 import intcode from "../../Assets/Projects/intcode.png";
 import zoo from "../../Assets/Projects/zoo.webp";
 import server from "../../Assets/Projects/server.pdf";
+import portfolio from "../../Assets/Projects/portfolio.png";
 
 function ProjetsPersonnels() {
   return (
@@ -17,7 +18,7 @@ function ProjetsPersonnels() {
           Mes projets <strong className="purple">personnels </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Voici quelques projets que j'ai réalisés durant mon parcours
+          Voici quelques projets que j'ai réalisés.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -48,9 +49,9 @@ Langage Java."
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
-              title="Mise en place d’une infrastructure réseau Windows (DHCP, DNS, ADDS)"
-              description="Configuration complète d’un serveur Windows avec les rôles DHCP, DNS et ADDS, intégration d'une VM cliente, réalisée dans un environnement virtualisé via Hyper V. Après réalisation du projet, j'ai produit un guide documenté. Ce travail a été réalisé en groupe avec deux camarades. "
+              imgPath={ad}
+              title="Mise en place de services DHCP, DNS, ADDS sur un réseau virtuel "
+              description="Configuration complète sur une machine virtuelle d’un serveur Windows avec les rôles de DHCP, DNS et ADDS. Accès aux services depuis une VM cliente sur le même réseau : la VM cliente a pu se connecter avec son IP donnée par le serveur, et se connecter à un compte du domaine Active Directory crée. Version du serveur : Windows Server Core 2022, sans interface graphique. Utilisation de Hyper-V. L'objectif était la réalisation du projet en utilisant uniquement des commandes sur le serveur et la production d'un guide documenté exposant les étapes nécessaires. "
               link={server}
               linkName="Voir le guide"
             />
@@ -79,8 +80,8 @@ Langage Java."
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={nike}
-              title=""
+              imgPath={portfolio}
+              title="Portfolio React"
               description="J'ai forké un portfolio open source de github. Ce portfolio étant codé en JavaScript et utilisant la librairie React, je l'ai fait évolué, modifié et ajouté 
               de nombreux éléments pour le faire correspondre à mes besoins. J'ai également mis en place une Github action qui crée un livrable et le déploie automatiquement à chaque modification sur la branche principale."
               ghLink="https://github.com/Jonathan-Cohen-00/portfolio-react"

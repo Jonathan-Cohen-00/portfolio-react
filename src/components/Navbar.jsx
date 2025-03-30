@@ -10,6 +10,9 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiFillBank,
+  AiOutlineDesktop,
+  AiOutlineTable,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -57,15 +60,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
-              </Nav.Link>
-            </Nav.Item>
+     
 
             <Nav.Item>
               <Nav.Link
@@ -86,14 +81,34 @@ function NavBar() {
                 to="/mon-alternance"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <AiOutlineDesktop
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Mon alternance
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                 to="/veille-technologique"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Veille Technologique
+              </Nav.Link>
+            </Nav.Item>
 
-
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/synthese"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineTable style={{ marginBottom: "2px" }} /> Tableau de synthèse
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link

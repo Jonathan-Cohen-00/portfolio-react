@@ -8,6 +8,8 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Techstack from "../About/Techstack";
+import Toolstack from "../About/Toolstack";
 
 function Home2() {
   return (
@@ -33,27 +35,30 @@ function Home2() {
               <br />
               Ces deux années de BTS m'ont permis d'acquérir &nbsp;
               <i>
-                <b className="purple">des savoirs fondamentaux en informatique </b>
-                </i>
-                et de découvrir plusieurs langages et technologies liés au 
-             <i>
-             <b className="purple"> développement informatique.</b>
-              </i>   
+                <b className="purple">
+                  des savoirs fondamentaux en informatique{" "}
+                </b>
+              </i>
+              et de découvrir plusieurs langages et technologies liés au
+              <i>
+                <b className="purple"> développement informatique.</b>
+              </i>
               <br />
               <br />
-              En parallèle de mes cours, je poursuis mon apprentissage du métier de{" "}
+              En parallèle de mes cours, je poursuis mon apprentissage du métier
+              de{" "}
               <b className="purple">
                 <i>développeur </i>
               </b>
               <b> au sein de </b>
-
-              <i>
-              </i>
+              <i></i>
               &nbsp;
               <i>
                 <b className="purple">l'Insee.</b>
               </i>
-              <br/><br/> Si j'obtenais mon BTS, j'aimerai poursuivre en apprentissage vers la {" "}
+              <br />
+              <br /> Si j'obtiens mon BTS, j'aimerai poursuivre en
+              apprentissage vers la{" "}
               <b className="purple">
                 <i> licence MIAGE à Panthéon - Sorbonne.</i>
               </b>
@@ -63,36 +68,6 @@ function Home2() {
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>Mes documents</h1>
-            <p>
-              <span className="purple"> </span>
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/Jonathan-Cohen-00"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/-cohen-jonathan"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-            </ul>
           </Col>
         </Row>
       </Container>
