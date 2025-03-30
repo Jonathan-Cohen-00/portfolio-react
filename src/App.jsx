@@ -5,7 +5,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import ProjetsPersonnels from "./components/Projects/ProjetsPersonnels";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
+import Cv from "./components/Resume/ResumeNew";
 import Alternance from "./components/Alternance/Alternance";
 import {
   BrowserRouter as Router,
@@ -41,7 +41,7 @@ function App() {
           <Route path="/mon-alternance" element={<Alternance/>} />
           
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/cv" element={<Cv />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
