@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import { CgWebsite } from "react-icons/cg";
 import { BsGithub, BsLink } from "react-icons/bs";
 
 function ProjectCards(props) {
@@ -43,7 +42,6 @@ function ProjectCards(props) {
         </Card.Body>
       </Card>
 
-      {/* Modal d'affichage de l'image en grand */}
       <Modal show={showModal} onHide={handleClose} centered size="lg">
         <Modal.Body style={{ padding: 0 }}>
           <img
