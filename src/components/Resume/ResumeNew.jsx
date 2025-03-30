@@ -8,7 +8,6 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import workerSrc from 'pdfjs-dist/build/pdf.worker.min?url';
 
-// Configure le worker
 pdfjs.GlobalWorkerOptions.workerSrc = workerSrc;
 
 
