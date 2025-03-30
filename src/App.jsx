@@ -30,7 +30,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/public_html/jonathan_cohen/portfolio">
+    <Router basename="/jonathan_cohen/portfolio">
     <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
