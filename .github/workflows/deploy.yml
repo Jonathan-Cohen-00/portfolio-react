@@ -33,4 +33,4 @@ jobs:
           protocol: ftps
           port: 21
           server-dir: /public_html/jonathan_cohen/portfolio/
-          local-dir: dist
+          local-dir: dist/
