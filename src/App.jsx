@@ -30,8 +30,8 @@ function App() {
   }, []);
 
   return (
-    <Router>
-      <Preloader load={load} />
+    <Router basename="/jonathan_cohen/portfolio">
+    <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
