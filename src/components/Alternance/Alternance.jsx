@@ -19,7 +19,7 @@ function Alternance() {
           Mon parcours en<strong className="purple"> alternance</strong>
         </h1>
         <p style={{ color: "white" }}>
-          J'ai pu intégrer un projet en cours de développement qui consiste à
+          J'ai intégré un projet en cours de développement qui consiste à
           gérer les comptes des agents et leurs habilitations au sein de
           différents annuaires.
           <br />
