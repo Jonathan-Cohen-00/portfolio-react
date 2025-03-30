@@ -17,6 +17,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_LOGIN }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /public_html/jonathan_cohen/portfolio/
           protocol: ftps
           port: 21
+          server-dir: /public_html/jonathan_cohen/portfolio/
+          local-dir: dist 
