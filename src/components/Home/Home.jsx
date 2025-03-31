@@ -12,7 +12,7 @@ function Home() {
       <Container
         fluid
         className="home-section"
-        id="home"
+        id="home" 
         style={{
           backgroundImage: `var(--image-gradient), url(${homeBg})`,
         }}
