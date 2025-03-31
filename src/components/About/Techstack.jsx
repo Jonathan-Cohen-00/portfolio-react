@@ -2,21 +2,16 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
-  DiReact,
   DiGit,
-  DiJava,
   DiGithub,
   DiCss3,
   DiDotnet,
-  DiBootstrap,
 } from "react-icons/di";
 import {
   SiCsharp,
-  SiGitlab,
   SiHtml5,
   SiMysql,
   SiPhp,
-  SiSpring,
 } from "react-icons/si";
 
 function Techstack() {

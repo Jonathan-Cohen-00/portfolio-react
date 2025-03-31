@@ -4,13 +4,9 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-  AiFillBank,
   AiOutlineDesktop,
   AiOutlineTable,
 } from "react-icons/ai";
@@ -38,9 +34,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        {/* <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand> */}
+     
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -110,18 +104,28 @@ function NavBar() {
                 Epreuve E6
               </Nav.Link>
             </Nav.Item>
+            
             <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/synthese"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineTable style={{ marginBottom: "2px" }} /> Tableau de synthèse
+                <AiOutlineTable style={{ marginBottom: "2px" }} /> Synthèse
               </Nav.Link>
             </Nav.Item>
 
-     
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/cv"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineTable style={{ marginBottom: "2px" }} /> Synthèse
+              </Nav.Link>
+            </Nav.Item>
 
+    
        
          
           </Nav>

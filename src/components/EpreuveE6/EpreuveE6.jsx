@@ -1,12 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
-import homeBg from "../../Assets/home-bg.webp"; 
 import Particle from "../Particle";
-import Home2 from "../Home/Home2";
-import Type from "../Home/Type";
-import Techstack from "../About/Techstack";
-import Toolstack from "../About/Toolstack";
 import ProjectCard from "../Projects/ProjectCards";
 import nike from "../../Assets/Projects/nike.png";
 

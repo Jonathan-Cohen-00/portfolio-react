@@ -2,10 +2,8 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
-  SiPostman,
   SiWindows,
   SiVisualstudio,
-  SiIntellijidea,
 } from "react-icons/si";
 
 function Toolstack() {
