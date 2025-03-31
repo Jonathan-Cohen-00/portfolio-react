@@ -73,7 +73,8 @@ function VeilleTechnologique() {
             </ul>
 
             <h3 className="purple">Comparaison avec d'autres frameworks PHP</h3>
-            <Table striped bordered hover responsive>
+            <Table striped bordered hover responsive="sm">
+
               <thead>
                 <tr>
                   <th>Critère</th>

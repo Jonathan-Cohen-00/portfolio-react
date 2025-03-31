@@ -5,7 +5,7 @@ import Techstack from "./Techstack";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
-function ProjetsPersonnels() {
+function About() {
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -20,7 +20,7 @@ function ProjetsPersonnels() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Mes projets pour l'épreuve  <strong className="purple">E6</strong>
             </h1>
           </Col>
           <Col
@@ -44,4 +44,4 @@ function ProjetsPersonnels() {
   );
 }
 
-export default ProjetsPersonnels;
+export default About;

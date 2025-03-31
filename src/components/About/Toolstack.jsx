@@ -17,17 +17,11 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiIntellijidea/>
-      </Col>
-     
+ 
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudio/>
       </Col>
     
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
     </Row>
   );
 }

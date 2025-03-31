@@ -18,6 +18,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import VeilleTechnologique from "./components/Veille/VeilleTechnologique";
+import EpreuveE6 from "./components/EpreuveE6/EpreuveE6";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -39,7 +40,9 @@ function App() {
         <Routes>
           <Route
             path="/veille-technologique"
-            element={<VeilleTechnologique/>} />
+            element={<VeilleTechnologique />}
+          />
+          <Route path="/epreuve-e6" element={<EpreuveE6 />} />
           <Route path="/" element={<Home />} />
           <Route path="/projets-personnels" element={<ProjetsPersonnels />} />
           <Route path="/mon-alternance" element={<Alternance />} />
