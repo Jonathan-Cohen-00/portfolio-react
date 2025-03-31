@@ -1,7 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { BsMicrosoft } from "react-icons/bs";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
