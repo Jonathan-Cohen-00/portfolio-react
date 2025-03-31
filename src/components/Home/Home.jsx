@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
+import homeBg from "../../Assets/home-bg.jpg"; 
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -8,7 +9,16 @@ import Type from "./Type";
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container
+        fluid
+        className="home-section"
+        id="home"
+        style={{
+          backgroundImage: `var(--image-gradient), url(${homeBg})`,
+        }}
+
+
+      >
         <Particle />
         <Container className="home-content">
           <Row>
