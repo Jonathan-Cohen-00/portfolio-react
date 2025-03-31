@@ -63,7 +63,7 @@ Langage Java."
               title="Site e-commerce d'articles de sport"
               description="Réalisation d'un site de e-commerce. Constitue mon client léger pour l'épreuve E6. Ses fonctionnalités principales sont la création de compte, la connexion, la gestion des paniers et le passage de commandes."
               ghLink="https://github.com/Jonathan-Cohen-00/e-commerce-nike"
-              link="https://plant49-ai.herokuapp.com/"
+              link="https://mediumslateblue-crab-828850.hostingersite.com/jonathan_cohen/e-commerce"
               linkName="Accéder au site"
             />
           </Col>

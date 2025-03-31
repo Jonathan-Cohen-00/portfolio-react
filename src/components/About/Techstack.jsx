@@ -24,23 +24,23 @@ import {
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-     <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSpring/>
+        <SiSpring />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPhp/>
+        <SiPhp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiBootstrap/>
+        <DiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiCss3/>
+        <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5/>
+        <SiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
@@ -52,12 +52,12 @@ function Techstack() {
         <DiDotnet />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGitlab/>
+        <SiGitlab />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGithub/>
+        <DiGithub />
       </Col>
-    
+
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
@@ -67,8 +67,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
       </Col>
-   
- 
     </Row>
   );
 }
