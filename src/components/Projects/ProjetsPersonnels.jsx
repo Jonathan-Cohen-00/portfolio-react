@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import nike from "../../Assets/Projects/nike.png";
 import ad from "../../Assets/Projects/server.png";
 import intcode from "../../Assets/Projects/intcode.png";
-import zoo from "../../Assets/Projects/zoo.webp";
+import zoo from "../../Assets/Projects/zoo.png";
 import server from "../../Assets/Projects/server.pdf";
 import portfolio from "../../Assets/Projects/portfolio.png";
 
@@ -39,10 +39,10 @@ Langage Java."
               description="Réalisation de l'intranet d'un zoo fictif.
               Maquettage, puis conception du site.
               Base de donnnées comportant les informations sur les utilisateurs, espèces et animaux recueillis. Site dynamique envoyant des requêtes vers cette base.
-              Système de connexion basique avec un login et mot de passe hashé.
+              Peu de sécurité.
               Pris en charge de deux rôles différents : 
                le rôle d'employé pour gérer uniquement les espèces et les animaux, 
-               et le rôle d'administrateur pour gérer en plus les comptes employés. Langages utilisés : PHP, HTML, CSS, MySQL."
+               et le rôle d'administrateur pour gérer en plus les comptes employés. Langages utilisés : PHP, HTML, CSS, MySQL, JavaScript."
               ghLink="https://github.com/Jonathan-Cohen-00/WebsiteZoo"
             />
           </Col>
@@ -60,23 +60,22 @@ Langage Java."
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={nike}
-              title="Site e-commerce d'articles de sport"
-              description="Réalisation d'un site de e-commerce. Constitue mon client léger pour l'épreuve E6. Ses fonctionnalités principales sont la création de compte, la connexion, la gestion des paniers et le passage de commandes."
+              title="Application e-commerce de baskets"
+              description="Les fonctionnalités principales sont la création de compte, la connexion, la gestion des paniers et le passage de commandes. Le paiement s'effectue via Stripe.  Langages utilisés : PHP, HTML, CSS, MySQL, JavaScript."
               ghLink="https://github.com/Jonathan-Cohen-00/e-commerce-nike"
               link="https://mediumslateblue-crab-828850.hostingersite.com/jonathan_cohen/e-commerce"
               linkName="Accéder au site"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={nike}
               title="Application de bureau - Backoffice d'une boutique en ligne"
               description="Application windows qui permet l'authentification des gestionnaires de la boutique, l'accès à un dashboard avec différents KPI, la modification des produits et stocks, la validation et consultations des commandes, l'archivage d'anciens produits."
               ghLink="https://github.com/Jonathan-Cohen-00/SneakerBackOffice"
-
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard

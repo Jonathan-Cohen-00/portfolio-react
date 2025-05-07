@@ -34,7 +34,6 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-     
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -52,8 +51,6 @@ function NavBar() {
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Accueil
               </Nav.Link>
             </Nav.Item>
-
-     
 
             <Nav.Item>
               <Nav.Link
@@ -74,16 +71,14 @@ function NavBar() {
                 to="/mon-alternance"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineDesktop
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Mon alternance
+                <AiOutlineDesktop style={{ marginBottom: "2px" }} /> Mon
+                alternance
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                 to="/veille-technologique"
+                to="/veille-technologique"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
@@ -92,19 +87,7 @@ function NavBar() {
                 Veille Technologique
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                 to="/epreuve-e6"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Epreuve E6
-              </Nav.Link>
-            </Nav.Item>
-            
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -114,20 +97,6 @@ function NavBar() {
                 <AiOutlineTable style={{ marginBottom: "2px" }} /> Synthèse
               </Nav.Link>
             </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/cv"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineTable style={{ marginBottom: "2px" }} /> Synthèse
-              </Nav.Link>
-            </Nav.Item>
-
-    
-       
-         
           </Nav>
         </Navbar.Collapse>
       </Container>
