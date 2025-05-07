@@ -23,7 +23,6 @@ function VeilleTechnologique() {
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               <strong className="purple">Veille Technologique</strong> : Laravel
               &nbsp;
-
               <FaLaravel></FaLaravel>
             </h1>
             <p>
@@ -74,7 +73,6 @@ function VeilleTechnologique() {
 
             <h3 className="purple">Comparaison avec d'autres frameworks PHP</h3>
             <Table striped bordered hover responsive="sm">
-
               <thead>
                 <tr>
                   <th>Critère</th>
@@ -151,25 +149,6 @@ function VeilleTechnologique() {
               Aujourd'hui, elle est native et simplifiée.
             </p>
 
-            <Table bordered responsive>
-              <thead>
-                <tr>
-                  <th>Avant Laravel 12</th>
-                  <th>Depuis Laravel 12</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Configuration manuelle</td>
-                  <td>Prête à l’emploi</td>
-                </tr>
-                <tr>
-                  <td>Pas de support officiel</td>
-                  <td>Support complet avec Vite</td>
-                </tr>
-              </tbody>
-            </Table>
-
             <h3 className="purple">Pourquoi Laravel se distingue</h3>
             <ul className="list-left">
               <li>Une communauté très active et des mises à jour fréquentes</li>
@@ -188,10 +167,8 @@ function VeilleTechnologique() {
             <p>
               Grâce à son approche orientée développeur, sa simplicité sans
               sacrifier la puissance, Laravel a su conquérir une large part du
-              marché PHP. Il se distingue de Symfony par sa facilité, sa courbe
-              d’apprentissage rapide et sa productivité immédiate. À long terme,
-              Laravel a toutes les cartes en main pour s'imposer comme
-              framework PHP de référence.
+              marché PHP. Il se distingue par sa facilité et sa productivité.
+              C'est grâce à cela qu'il est devenu le framework PHP de référence.
             </p>
           </Col>
         </Row>

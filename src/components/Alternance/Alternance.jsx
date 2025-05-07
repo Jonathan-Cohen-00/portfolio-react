@@ -21,9 +21,14 @@ function Alternance() {
           Mon alternance à <strong className="purple">l'Insee</strong>
         </h1>
         <p style={{ color: "white" }}>
-          L’<strong>Insee</strong> (Institut national de la statistique et des études économiques) est un organisme public chargé de produire, analyser et diffuser les statistiques officielles en France. 
-          Il joue un rôle essentiel dans l’aide à la décision publique, à travers la collecte de données économiques, démographiques et sociales. 
-          En tant qu'apprenti, j’ai intégré une équipe technique qui conçoit et maintient des outils internes, au sein du service de développement de la direction générale située à Montrouge.
+          L’<strong>Insee</strong> (Institut national de la statistique et des
+          études économiques) est un organisme public chargé de produire,
+          analyser et diffuser les statistiques officielles en France. Il joue
+          un rôle essentiel dans l’aide à la décision publique, à travers la
+          collecte de données économiques, démographiques et sociales. En tant
+          qu'apprenti, j’ai intégré une équipe technique qui conçoit et
+          maintient des outils internes, au sein du service de développement de
+          la direction générale située à Montrouge.
         </p>
 
         {/* Missions en alternance */}
@@ -35,8 +40,7 @@ function Alternance() {
           les comptes des agents et leurs habilitations.
           <br />
           Il est composé de plusieurs projets distincts : un front-end en React/
-          Typescript, deux Rest API ainsi. Voici les missions que j'ai pu
-          réalisées.
+          Typescript, deux Rest API. Voici les missions que j'ai pu réalisées.
         </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
